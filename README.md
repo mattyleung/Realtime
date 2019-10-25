@@ -1,4 +1,4 @@
-# realLifeToDoList
+# RealLifeTodolist
 A to-do-list witha a list-sharing and easily managaeable features. Implement real-time database from Firebase. Text and Photos are able to upload and retrieve from the database
 
 # Manual 
