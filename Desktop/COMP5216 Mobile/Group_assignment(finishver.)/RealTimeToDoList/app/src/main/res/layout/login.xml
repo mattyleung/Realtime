@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.shiva.try1.login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listzonelogo"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#BEFFFFFF"
+
+        android:ems="10"
+        android:textColor="#000000"
+        android:hint="Email"
+
+        android:textSize="16dp"
+        android:layout_marginTop="350dp"
+
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editEmail"
+        android:layout_alignLeft="@+id/editEmail"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/editEmail"
+        android:background="#BEFFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="50dp"
+        android:background="#C6EEEAEA"
+        android:text="Log IN "
+        android:layout_marginLeft="150dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="100dp"
+        android:background="#C6EEEAEA"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="20dp"
+        android:text="SIGN UP"
+        android:layout_marginLeft="150dp"
+        />
+
+
+</RelativeLayout>
