@@ -21,3 +21,13 @@ TargetSdkVersion 26
 4.	After successfully sing up and log in, you need to input a name for each account, this name will be used for to-do items editing. 
 
 5.	Please review chapter 3 ‘How the App works’ to help your application testing. Have fun:)
+
+
+<img src="imageFile/loginPage.png" width="250">
+<img src="imageFile/afterLoginPage.png" width="250">
+
+<img src="imageFile/roomList.png" width="250">
+<img src="imageFile/afterCreateRoom.png" width="250">
+
+<img src="imageFile/addingItem.png" width="250">
+<img src="imageFile/pressItem.png" width="250">
